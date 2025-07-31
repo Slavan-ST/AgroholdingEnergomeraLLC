@@ -1,7 +1,8 @@
 # 🌾 Field Service API
 
 🏗 Структура проекта
-text
+
+```text
 FieldServiceAPI/
 ├── 📁 Controllers/       # API контроллеры
 ├── 📁 Models/            # Модели данных
@@ -9,7 +10,7 @@ FieldServiceAPI/
 ├── 📁 KmlData/           # KML файлы данных
 ├── 📄 Program.cs         # Конфигурация
 └── 📄 appsettings.json   # Настройки
-
+```
 
 ## 📋 О проекте
 
