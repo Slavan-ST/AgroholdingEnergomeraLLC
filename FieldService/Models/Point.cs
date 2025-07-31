@@ -1,4 +1,4 @@
-﻿namespace FieldServiceApp.Models
+﻿namespace FieldServiceAPI.Models
 {
     public class Point
     {

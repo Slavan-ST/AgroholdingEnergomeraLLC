@@ -1,6 +1,7 @@
-using FieldServiceApp.Services;
+using FieldServiceAPI.Services;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FieldServiceApp
+namespace FieldServiceAPI
 {
     public class Program
     {
@@ -40,6 +41,7 @@ namespace FieldServiceApp
                 });
             }
 
+            app.UsePathBase("/swagger/");
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();

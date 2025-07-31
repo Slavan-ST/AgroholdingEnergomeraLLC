@@ -1,8 +1,8 @@
 ﻿
-namespace FieldServiceApp.Services
+namespace FieldServiceAPI.Services
 {
     using System.Xml.Linq;
-    using global::FieldServiceApp.Models;
+    using global::FieldServiceAPI.Models;
     using NetTopologySuite.Geometries;
     using NetTopologySuite.Operation.Distance;
     using Point = Models.Point;
@@ -49,7 +49,7 @@ namespace FieldServiceApp.Services
                     .ToArray());
 
                 // Рассчитываем площадь в гектарах
-                var area = polygon.Area * 10000; // Конвертация из квадратных градусов в гектары (упрощенно)
+                var area = polygon.Area * 10000; // Конвертация из квадратных градусов в гектары
 
                 _fields.Add(new Field
                 {

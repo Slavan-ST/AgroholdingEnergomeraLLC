@@ -1,6 +1,6 @@
-﻿using FieldServiceApp.Models;
+﻿using FieldServiceAPI.Models;
 
-namespace FieldServiceApp.Services
+namespace FieldServiceAPI.Services
 {
     public interface IFieldService
     {

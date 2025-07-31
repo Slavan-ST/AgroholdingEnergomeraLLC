@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace FieldServiceApp.Controllers
+namespace FieldServiceAPI.Controllers
 {
-    using FieldServiceApp.Models;
-    using FieldServiceApp.Services;
+    using FieldServiceAPI.Models;
+    using FieldServiceAPI.Services;
     using Microsoft.AspNetCore.Mvc;
 
     [ApiController]
